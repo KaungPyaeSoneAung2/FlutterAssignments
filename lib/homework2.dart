@@ -103,7 +103,7 @@ class Homework2 extends StatelessWidget {
 
           ),
           alignment: Alignment.center,
-          child: const Text("Update", style: TextStyle(fontSize: 16, color: Colors.white,)),
+          child: const Text("Update", style: TextStyle(fontSize: 16,fontWeight: FontWeight.bold, color: Colors.white,)),
         ),
         const SizedBox(
           height: 60,
@@ -118,7 +118,7 @@ class Homework2 extends StatelessWidget {
 
           ),
           alignment: Alignment.center,
-          child: const Text("Back", style: TextStyle(fontSize: 16, color: Color.fromARGB(180, 62, 144, 231)),),
+          child: const Text("Back", style: TextStyle(fontSize: 16,fontWeight: FontWeight.bold, color: Color.fromARGB(180, 62, 144, 231)),),
         ),
       ]),
     );
