@@ -22,15 +22,19 @@ class Homework2 extends StatelessWidget {
           color: const Color.fromARGB(180, 150, 180, 213),
           alignment: Alignment.bottomCenter,
           padding: const EdgeInsets.only(bottom: 10),
-          child: CircleAvatar(
+          child: const CircleAvatar(
             radius: 82,
             backgroundColor: Color.fromARGB(255, 104, 101, 101),
-            child: ClipRRect(
-                      borderRadius: BorderRadius.circular(100),
-                      child: Image.asset(
-                        "lib/assets/marin.jpg",
-                        height: 160,
-                      )),
+            // child: ClipRRect(
+            //           borderRadius: BorderRadius.circular(100),
+            //           child: Image.asset(
+            //             "lib/assets/marin.jpg",
+            //             height: 160,
+            //           )),
+            child: CircleAvatar(
+              radius: 80,
+              backgroundImage: AssetImage("lib/assets/marin.jpg"),
+            ),
           ),
         ),
         const SizedBox(
