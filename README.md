@@ -1,3 +1,4 @@
 # training_flutter
-#Assignment 2  <br>
-![Assignment 2 ScreenShot](https://github.com/KaungPyaeSoneAung2/FlutterAssignments/blob/master/screenshot/Screenshot%202023-05-22%20183658.png?raw=true)
+| | |
+|:-------------------------:|:-------------------------:|
+| Assignment 2 <img width ="1604" alt="assignment 2" src="https://github.com/KaungPyaeSoneAung2/FlutterAssignments/blob/master/screenshot/Assign%202.png?raw=true">  | Assignment 3 <img  width ="1604" alt="assignment 3" src="https://github.com/KaungPyaeSoneAung2/FlutterAssignments/blob/master/screenshot/Assign%203.png?raw=true"> 
