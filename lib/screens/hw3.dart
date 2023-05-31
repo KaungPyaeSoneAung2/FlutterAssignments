@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:training_flutter/constants/hw3/dimens.dart';
+import 'package:training_flutter/constants/hw3/strings.dart';
 import 'package:training_flutter/widgets/hw3/bottombutton.dart';
 import 'package:training_flutter/widgets/hw3/textwspan.dart';
 import 'package:training_flutter/widgets/hw3/textfieldwlogo.dart';
@@ -22,17 +23,17 @@ class Homework3 extends StatelessWidget {
             children: const [
               TopLabel(),
               TextFieldWLogo(
-                  textVar: "Your Name", logoIcon: Icons.contact_mail),
+                  textVar: ksYourName, logoIcon: Icons.contact_mail),
               TextFieldWLogo(
-                textVar: "Your Email",
+                textVar: ksYourEmail,
               ),
               TextFieldWLogo(
-                  textVar: "Password", logoIcon: Icons.remove_red_eye),
+                  textVar: ksPW, logoIcon: Icons.remove_red_eye),
               TextFieldWLogo(
-                  textVar: "Repeat your password", logoIcon: Icons.repeat),
-              TextWithSpan(lineOne: "I agree all statements in ",lineTwo: "Terms of service", fSize: kSmallFont, rightPadding: 40),
+                  textVar: ksRpPW, logoIcon: Icons.repeat),
+              TextWithSpan(lineOne: ksTOS1,lineTwo: ksTOS2, fSize: kSmallFont, rightPadding: kBigPadding),
               BottomButton(),
-              TextWithSpan(lineOne: "Have already an Account ? ", lineTwo: "Login Here", fSize: kMidFont, rightPadding: 0,)
+              TextWithSpan(lineOne: ksHaveAcc1, lineTwo: ksHaveAcc2, fSize: kMidFont, rightPadding: 0,)
             ]),
       ),
     );
